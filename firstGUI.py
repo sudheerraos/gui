@@ -1,5 +1,4 @@
-# gui
-GUI program to store users and passwords and display them on the terminal
+# GUI program to store users and passwords and display them on the terminal
 
 from tkinter import *
 from tkinter import messagebox
