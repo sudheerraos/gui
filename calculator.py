@@ -68,11 +68,12 @@ def buclearclick():
 
 
 def buequalclick():
-    if entry.get() != "":
+    try:
         result = eval(entry.get())
         entry.delete(0, END)
         entry.insert(0, result)
-
+    except:
+        pass
 
 bu_1 = Button(box, text="1", padx=25, pady=10, command=bu1click)
 bu_2 = Button(box, text="2", padx=25, pady=10, command=bu2click)
